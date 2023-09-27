@@ -3,6 +3,10 @@ package com.github.holeksii;
 public class RailFenceCipher {
 
   public static String encode(String text, int rails) {
+    if (rails < 2) {
+      throw new IllegalArgumentException("Rails must be greater than 1");
+    }
+
     char[][] matrix = new char[rails][text.length()];
     boolean down = false;
     int row = 0;
@@ -30,6 +34,10 @@ public class RailFenceCipher {
   }
 
   public static String decode(String encoded, int rails) {
+    if (rails < 2) {
+      throw new IllegalArgumentException("Rails must be greater than 1");
+    }
+
     char[][] matrix = new char[rails][encoded.length()];
     boolean down = false;
     int row = 0;
