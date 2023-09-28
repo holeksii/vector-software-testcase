@@ -6,9 +6,9 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class RailFenceCipherTest {
 
-  static String TEXT = "WEAREDISCOVEREDFLEEATONCE";
-  static String ENCODED_WITH_3_RAILS = "WECRLTEERDSOEEFEAOCAIVDEN";
-  static String HELLO = "HELLO";
+  static final String TEXT = "WEAREDISCOVEREDFLEEATONCE";
+  static final String ENCODED_WITH_3_RAILS = "WECRLTEERDSOEEFEAOCAIVDEN";
+  static final String HELLO = "HELLO";
 
   @Test
   public void testBasicEncoding() {

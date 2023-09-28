@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class SudokuValidatorTest {
 
-  static SudokuValidator VALIDATOR = new SudokuValidator();
+  static final SudokuValidator VALIDATOR = new SudokuValidator();
 
   @Test
   public void testValidSudoku() {
