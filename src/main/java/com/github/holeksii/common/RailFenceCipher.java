@@ -1,4 +1,4 @@
-package com.github.holeksii;
+package com.github.holeksii.common;
 
 public class RailFenceCipher {
 

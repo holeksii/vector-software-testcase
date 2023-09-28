@@ -1,4 +1,4 @@
-package com.github.holeksii;
+package com.github.holeksii.common;
 
 import java.util.HashSet;
 import java.util.List;
