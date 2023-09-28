@@ -24,4 +24,8 @@ public class NumberTransformer {
     }
     return result;
   }
+
+  public void printlnTransformed(int num) {
+    System.out.println(transform(num));
+  }
 }
