@@ -1,7 +1,6 @@
-package com.github.holeksii;
+package com.github.holeksii.common;
 
 import org.junit.jupiter.api.Test;
-import com.github.holeksii.common.SudokuValidator;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;

@@ -1,7 +1,6 @@
-package com.github.holeksii;
+package com.github.holeksii.common;
 
 import org.junit.jupiter.api.Test;
-import com.github.holeksii.common.RailFenceCipher;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
