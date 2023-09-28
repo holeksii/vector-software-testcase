@@ -4,8 +4,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class NumberTransformerTest {
-  
-  static final  NumberTransformer TRANSFORMER = new NumberTransformer();
+
+  static final NumberTransformer TRANSFORMER = new NumberTransformer();
 
   @Test
   public void testSingleDigitTransformation() {
